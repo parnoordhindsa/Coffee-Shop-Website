@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+/* INDEX */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../bg-image.png);
+    background-size: 1440px 800px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 15%;
+}
+
+.content{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+}
+
+.content h6{
+    font-size: large;
+    font-weight: 500;
+    margin-top: -5%;
+    margin-bottom: 4%;
+    color: black;
+    text-transform: uppercase;
+}
+.content a{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 50px 5px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 15px #83838369;
+}
+
+/* MENU */
+
+.employee-header{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+.menu-content{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+}
+
+.menu-content a{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 50px 5px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 15px #83838369;
+}
+
+/* EDIT-MENU */
+
+.edit-menu-content{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 7%;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+}
+
+#menu-div{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.form{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 15px #83838369;
+}
+
+.edit-menu-content .form p #menu-item{
+    border: none;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: width 0.8s ease-in-out;
+}
+
+.edit-menu-content .form p #menu-item:focus{
+    width: 50%;
+}
+
+.edit-menu-content .form p #item-price{
+    border: none;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: width 0.8s ease-in-out;
+}
+
+.edit-menu-content .form p #item-price:focus{
+    width: 50%;
+}
+
+.edit-menu-content .form button{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px #83838369;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.edit-menu-content a{
+    margin-right: 5%;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 50px 7px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 15px #83838369;
+}
+
+/* DISPLAY ORDERS */
+
+.display_content{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 0%;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+}
+
+#allOrders{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.display_content a{
+    margin-right: 5%;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 50px 7px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 15px #83838369;
+}
+
+/* CUSTOMER */
+
+#lblGreetings{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.customer-content{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+}
+
+#menuShow{
+    width: 40%;
+    margin: 0 0 -5% 30%;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+#selectItem{
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.customer-content p button{
+    font-size: 25px;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px #83838369;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.customer-content a{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 7px 50px 7px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 15px #83838369;
+}
+
+
+/* ORDER STATUS */
+
+.order-heading{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.order-content{
+    margin-top: 5%;
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px; 
+}
+
+.order-content #orderID{
+    border: none;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: width 0.8s ease-in-out;
+}
+
+.order-content #orderID:focus{
+    width: 50%;
+}
+
+.order-content .form p button{
+    margin-right: 2%;
+    margin-left: 3%;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px #83838369;
+    cursor: pointer;
+}
+
+.order-content a{
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 2%;
+    border: none;
+    padding: 7px 50px 7px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 10px 15px #83838369;
+}
+
+.getOrderS{
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 5%;
+    text-align: left;
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 50px 7px 50px;
+}
+
+#getOrderID{
+    margin-bottom: -2%;
+}
+
+
+/* END */

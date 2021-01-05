@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Status</title>
+        <script src="../js/main.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <h2 class="order-heading">Order Status</h2>
+        <div class="order-content">
+            <div class="form">
+                <label for="orderID">Enter your order number:</label>
+                <input type="text" id="orderID" name="orderID" placeholder="Order Number">
+                <p><button onclick="orderStatus()">Submit</button>
+                <button onclick="cancelOrder()">Cancel Order</button></p>
+                </div>
+            <div class="getOrderS">
+                <div id="getOrderID"></div>
+                <p><div id="getStatus"></div>
+            </div>
+            <p><a href="index.html">Back to Login</a>
+            <a href="customer.html">Customer Menu</a></p>
+        </div>
+        
+    </body>
+
+</html>
